@@ -1,0 +1,34 @@
+[
+    {
+        "index": 0,
+        "question": "Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's age 10 years from now.",
+        "ground_truth_full": "The total ratio representing their ages is 7+11= <<7+11=18>>18\nSince the fraction of the ratio that represents Allen's age is 11/18, Allen's current age is 11/18*162 = <<11/18*162=99>>99\nIf Allen is currently 99 years old, in 10 years he will be 99+10 = <<99+10=109>>109 years old\n#### 109",
+        "ground_truth_num": "109",
+        "model_prediction_full": "Let Darrell's age be 7x and Allen's age be 11x.\n7x+11x=162\n18x=162\nx=<<9=9>>9\nDarrell's age is 7*9=<<7*9=63>>63 years\nAllen's age is 11*9=<<11*9=99>>99 years\nAllen's age 10 years from now is 99+10=<<99+10=109>>109 years\n#### 109:-------------</",
+        "model_answer_num": "109"
+    },
+    {
+        "index": 3,
+        "question": "Bethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than Bethany.  Shaelyn can run half as many laps as Trey.  Quinn can run 2 fewer laps than Shaelyn.  How many more laps can Bethany run compared to Quinn?",
+        "ground_truth_full": "Trey can run 10 + 4 = <<10+4=14>>14 laps in one hour.\nShaelyn can run 14 / 2 = <<14/2=7>>7 laps in one hour.\nQuinn can run 7 - 2 = <<7-2=5>>5 laps.\nBethany can run 10 - 5 = <<10-5=5>>5 more laps compared to Quinn.\n#### 5",
+        "ground_truth_num": "5",
+        "model_prediction_full": "Trey runs 10+4=<<10+4=14>>14 laps\nShaelyn runs 14/2=<<14/2=7>>7 laps\nQuinn runs 7-2=<<7-2=5>>5 laps\nBethany runs 10 laps\nBethany runs 10-5=<<10-5=5>>5 more laps than Quinn\n#### 5글상위assistant:semicolon\nBethany runs 5 more laps than Quinn.\n#### 5erusform",
+        "model_answer_num": "5"
+    },
+    {
+        "index": 7,
+        "question": "Jonathan has 2/3 as many measuring spoons as measuring cups. If he has two dozen cups and gifts Pedro 6 measuring spoons for his birthday, calculate the total number of utensils Jonathan has remaining.",
+        "ground_truth_full": "A dozen measuring cups are 12, and if Jonathan has two dozens, he has 2*12 = 24 cups.\nJonathan has 2/3 as many measuring spoons as measuring cups, so he has 2/3*24 = <<2/3*24=16>>16 measuring spoons.\nWhen he gifts Pedro 6 measuring spoons, he remains with 16-6 = <<16-6=10>>10 measuring spoons.\nHe now has a total of 10 measuring spoons + 24 measuring cups = <<10+24=34>>34 utensils\n#### 34",
+        "ground_truth_num": "34",
+        "model_prediction_full": "Jonathan has 2*12 = <<2*12=24>>24 measuring cups.\nHe has 24*2/3 = <<24*2/3=16>>16 measuring spoons.\nJonathan has 24+16 = <<24+16=40>>40 utensils.\nJonathan gifts Pedro 6 measuring spoons, leaving him with 40-6 = <<40-6=34>>34 utensils.\n#### 34:-------------</",
+        "model_answer_num": "34"
+    },
+    {
+        "index": 8,
+        "question": "Martha's cat is 5 times faster than her turtle. If the cat can run 15 feet/second, how many feet can her turtle crawl in 40 seconds?",
+        "ground_truth_full": "First find the speed of the turtle by dividing the cat's speed by 5: 15 feet/second / 5 = <<15/5=3>>3 feet/second\nThen multiply the turtle's speed by the number of seconds it spends crawling to find how far it crawls: 40 seconds * 3 feet/second = <<40*3=120>>120 feet\n#### 120",
+        "ground_truth_num": "120",
+        "model_prediction_full": "The turtle can run 15/5=<<15/5=3>>3 feet/second.\nSo in 40 seconds, the turtle can run 40*3=<<40*3=120>>120 feet.\n#### 120:-------------</",
+        "model_answer_num": "120"
+    }
+]

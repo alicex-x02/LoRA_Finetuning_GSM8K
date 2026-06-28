@@ -1,0 +1,34 @@
+[
+    {
+        "index": 2,
+        "question": "Indras has 6 letters in her name. Her sister's name has 4 more letters than half of the letters in Indras' name. How many letters are in Indras and her sister's names?",
+        "ground_truth_full": "I = <<6=6>>6\nSister = 6/2 + 4 = <<6/2+4=7>>7\n6 + 7 = <<6+7=13>>13 letters\nTogether Indras and her sister have 13 letters in their names.\n#### 13",
+        "ground_truth_num": "13",
+        "model_prediction_full": "Indras' sister's name has 6/2=<<6/2=3>>3 letters.\nIndras' sister's name has 3+4=<<3+4=7>>7 letters.\nIndras and her sister's names have 6+7=<<6+7=13>>13 letters.\n#### 13글상위",
+        "model_answer_num": "13"
+    },
+    {
+        "index": 6,
+        "question": "Gunther, the gorilla, had 48 bananas hidden under a fern branch.  When Gunther wasn't looking, Arnold, the chimpanzee, stole half of the bananas from the pile.  The next day, Gunther added another 25 bananas to his pile, but later that evening, Arnold stole another 12 of the bananas.  On the third day, Gunther added another 6 bananas to his pile and began counting bananas.  How many bananas did Gunther find were in the pile?",
+        "ground_truth_full": "Half of 48 bananas is 48/2=<<48/2=24>>24 bananas.\nArnold's first act of thievery removes 24 bananas, leaving 48-24=24 bananas.\nStarting with the remaining 24 bananas, adding 25 bananas to the pile brings the total to 24+25=<<24+25=49>>49 bananas.\nArnold's second act of thievery resulted in 49-12=<<49-12=37>>37 bananas remaining.\nGunther adds another 6 bananas, resulting in the final number of 37+6=<<37+6=43>>43 bananas.\n#### 43",
+        "ground_truth_num": "43",
+        "model_prediction_full": "When Arnold stole half of the bananas, he stole 48/2 = <<48/2=24>>24 bananas.\nAfter Arnold stole 24 bananas, Gunther had 48-24 = <<48-24=24>>24 bananas left.\nWhen Gunther added 25 bananas to his pile, he had 24+25 = <<24+25=49>>49 bananas.\nWhen Arnold stole 12 bananas, Gunther had 49-12 = <<49-12=37>>37 bananas left.\nWhen Gunther added 6 bananas to his pile, he had 37+6 = <<37+6=43>>43 bananas.\n#### 43글상위",
+        "model_answer_num": "43"
+    },
+    {
+        "index": 7,
+        "question": "Jonathan has 2/3 as many measuring spoons as measuring cups. If he has two dozen cups and gifts Pedro 6 measuring spoons for his birthday, calculate the total number of utensils Jonathan has remaining.",
+        "ground_truth_full": "A dozen measuring cups are 12, and if Jonathan has two dozens, he has 2*12 = 24 cups.\nJonathan has 2/3 as many measuring spoons as measuring cups, so he has 2/3*24 = <<2/3*24=16>>16 measuring spoons.\nWhen he gifts Pedro 6 measuring spoons, he remains with 16-6 = <<16-6=10>>10 measuring spoons.\nHe now has a total of 10 measuring spoons + 24 measuring cups = <<10+24=34>>34 utensils\n#### 34",
+        "ground_truth_num": "34",
+        "model_prediction_full": "Jonathan has 2*12=<<2*12=24>>24 measuring cups.\nHe has 24*2/3=<<24*2/3=16>>16 measuring spoons.\nJonathan has 24+16=<<24+16=40>>40 utensils.\nJonathan gifts Pedro 6 measuring spoons, so he has 40-6=<<40-6=34>>34 utensils remaining.\n#### 34글상위",
+        "model_answer_num": "34"
+    },
+    {
+        "index": 8,
+        "question": "Martha's cat is 5 times faster than her turtle. If the cat can run 15 feet/second, how many feet can her turtle crawl in 40 seconds?",
+        "ground_truth_full": "First find the speed of the turtle by dividing the cat's speed by 5: 15 feet/second / 5 = <<15/5=3>>3 feet/second\nThen multiply the turtle's speed by the number of seconds it spends crawling to find how far it crawls: 40 seconds * 3 feet/second = <<40*3=120>>120 feet\n#### 120",
+        "ground_truth_num": "120",
+        "model_prediction_full": "The turtle can run 15/5=<<15/5=3>>3 feet/second.\nSo in 40 seconds, the turtle can run 40*3=<<40*3=120>>120 feet.\n#### 120글상위",
+        "model_answer_num": "120"
+    }
+]
